@@ -1,0 +1,13 @@
+body{
+    background-color: darkgray;
+    margin: 0;
+    font-family: 'Copperplate';
+}
+
+.JJphoto{
+
+    border-radius: 100%;
+    border-image: auto;
+    align-items: center;
+    max-width: 20%;
+}

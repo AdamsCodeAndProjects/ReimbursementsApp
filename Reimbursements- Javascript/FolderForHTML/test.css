@@ -1,0 +1,93 @@
+body{
+    margin: 10px;
+    padding: 100px;
+    background: url(https://gmedia.playstation.com/is/image/SIEPDC/spider-man-miles-morales-daily-bugle-logo-02-en-02oct20?$facebook$);
+    background-size: 1500px 400px;
+    background-position: center;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-color: darkgray;
+    font-family: 'Copperplate';
+}
+
+.loginbox{
+    width: 320px;
+    background: #000;
+    color: #fff;
+    top: 74%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+#title{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 35px;
+}
+
+#loginText{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.loginbox input {
+    width: 80%;
+    margin: 25px;
+    margin-bottom: 20px;
+
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 15px;
+}
+
+#logbutton
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 80%;
+    margin: 25px;
+    margin-bottom: 20px;
+}
+
+#logbutton:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+    margin: 25px;
+}
+.loginbox a:hover {
+    color: #ffc107;
+}
+

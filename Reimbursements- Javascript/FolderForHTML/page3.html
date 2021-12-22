@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager Reimbursement Page</title>
+    <link rel="stylesheet" href="csspage3.css">
+    <button id="logoutbutton" onclick="logout()">Logout</button><br>
+    <h1>Hello JJ</h1>
+    <img src="https://mckreview.files.wordpress.com/2017/02/dailybugleeditor.jpg?w=640" alt="JJ Photo" class="JJphoto">
+</head>
+<body>
+
+    <!-- Current Pending Requests -->
+    <h4>Current Pending Requests</h4>
+    <table id="reimbursementsTable">
+        <thead>
+            <tr>
+                <th>
+                    - Transaction ID -
+                </th>
+                <th>
+                    - Employee ID -
+                </th>
+                <th>
+                    - Reimbursement Amount -
+                </th>
+                <th>
+                    - Expense Reason -
+                </th>
+                <th>
+                    - Status -
+                </th>
+                <th>
+                    - Manager Comment -
+                </th>
+                <th>
+                    - Date -
+                </th>
+            </tr>
+        </thead>
+        <tbody id="reimbursementsBody">
+            
+        </tbody>
+    </table>
+    <!-- ------------------Comment Area----------------- -->
+    <h4>Leave Comment:</h4>
+    <table id="commentTable">
+        <thead>
+            <tr>
+                <th>Transaction Id</th>
+                <th>Leave Comment</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th><input type="number" id="transIdBox" placeholder="Transaction Id"></th>
+                <th><input type="text" id="commentBox" placeholder="Your comment"></th>
+            </tr>
+        </tbody>
+    </table>
+    <button id="commentSubmit" onclick="leaveComment()">Submit</button>
+<!-- ------------------ Approve / Deny Functin Table----------------- -->
+<h4>Approve / Deny Requests:</h4>
+<table id="approvalTable">
+    <thead>
+        <tr>
+            <th>Transaction Id</th>
+            <th>Approve / Deny Request</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th><input type="number" id="transactIdBox" placeholder="Transaction Id"></th>
+            <th><input type="text" id="approvalBox" placeholder="Approve or Deny"></th>
+        </tr>
+    </tbody>
+</table>
+<button id="approvalSubmit" onclick="approvalFunction()">Submit</button>
+
+<!-- ---------------------------Past Requests  ----- -------------- -->
+
+<h4>Past Requests</h4>
+    <table id="reimbursementsPastTable">
+        <thead>
+            <tr>
+                <th>
+                    - Transaction ID -
+                </th>
+                <th>
+                    - Employee ID -
+                </th>
+                <th>
+                    - Reimbursement Amount -
+                </th>
+                <th>
+                    - Expense Reason -
+                </th>
+                <th>
+                    - Status -
+                </th>
+                <th>
+                    - Manager Comment -
+                </th>
+                <th>
+                    - Date -
+                </th>
+            </tr>
+        </thead>
+        <tbody id="reimbursementsPastBody">
+            
+        </tbody>
+    </table>
+    
+    <!-- Table for Stats -->
+
+    <h4>Find the average requested amount by Employee Id Below:</h4>
+    <input type="number" id="employeeIdForStatOne" placeholder="Enter Employee Id">
+    <button id="getStatsButton">Show Stats</button>
+    <section id="statsData"></section>
+
+    <h4>All reimbursement requests combined by Employee Id Below:</h4>
+    <input type="number" id="employeeIdForStatTwo" placeholder="Enter Employee Id">
+    <button id="getStatsButtonTwo">Show Stats</button>
+    <section id="statsDataTwo"></section>
+
+    <h4>The number of requests by Employee Id Below:</h4>
+    <input type="number" id="employeeIdForStatThree" placeholder="Enter Employee Id">
+    <button id="getStatsButtonThree">Show Stats</button>
+    <section id="statsDataThree"></section>
+
+    <h4>The highest request by Employee Id Below:</h4>
+    <input type="number" id="employeeIdForStatFour" placeholder="Enter Employee Id">
+    <button id="getStatsButtonFour">Show Stats</button>
+    <section id="statsDataFour"></section>
+
+    <h4>The lowest request by Employee Id Below:</h4>
+    <input type="number" id="employeeIdForStatFive" placeholder="Enter Employee Id">
+    <button id="getStatsButtonFive">Show Stats</button>
+    <section id="statsDataFive"></section>
+
+    <!-- <div id="dropdown">
+        <button>Dropdown</button>
+        <div id="dropdown-content">
+            <a href="#">Pending</a>
+            <a href="#">Approved</a>
+            <a href="#">Denied</a>
+        </div>
+    </div> -->
+    <br><br>
+
+    <table id="statsTable">
+        <thead>
+            <tr>
+                <th>
+                    
+                </th>
+                
+            </tr>
+        </thead>
+        <tbody id="statsBody">
+            
+        </tbody>
+    </table>
+
+
+    <script src="jspage3.js"></script>
+</body>
+</html>
+
+

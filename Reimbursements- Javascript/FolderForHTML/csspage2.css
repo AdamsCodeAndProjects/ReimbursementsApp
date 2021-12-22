@@ -1,0 +1,21 @@
+#logoutbutton{
+    border: none;
+    outline: none;
+    height: 30px;
+    background: #746c6c;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 0px;
+    width: 8%;
+    margin: 5px;
+    margin-bottom: 2px;
+}
+#logoutbutton:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+body{
+    background-color: darkgray;
+    font-family: 'Copperplate';
+}
