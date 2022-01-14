@@ -24,4 +24,7 @@ Add more functionality, such as a chat input box for employees to managers
 
 My current project should look like this once downloaded:
 
-<img src="DailyBugle.png" alt="Photo of app"style="float: left; margin-right: 10px;" />
+<img width="1203" alt="DailyBugle" src="https://user-images.githubusercontent.com/87610332/149544323-b4315933-ad55-417b-9bf2-e0d057ba67d2.png">
+
+
+
