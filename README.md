@@ -3,17 +3,17 @@ This is an app is a reimbursements app for a small business using a RESTful web 
 <br>
   *Python <br>
   *PostreSQL <br>
-  *HTML 
-  *CSS
-  *Javascript
+  *HTML <br>
+  *CSS <br>
+  *Javascript <br>
   
   The app is three tiered with automated testing using Pytest and End to End testing, all with 100% passing tests.  The app features a log-in system so the system can differenciate between employee and manager.  
 
 <h1>Features</h1>
 
-*Back end Automated Testing using Pytest
-*End to End Testing using Gherkin and Selenium
-*Working paths from SQL to Python, Python to the front end for complete user friendly experience.  
+*Back end Automated Testing using Pytest <br>
+*End to End Testing using Gherkin and Selenium <br>
+*Working paths from SQL to Python, Python to the front end for complete user friendly experience.   <br>
 
 To-do list:
 
