@@ -17,8 +17,8 @@ This is an app is a reimbursements app for a small business using a RESTful web 
 
 To-do list:
 
-Add more CSS to the front end to make project more user-friendly
-Add more functionality, such as a chat input box for employees to managers
+Add more CSS to the front end to make project more aesthetically pleasing. <br>
+Add more functionality, such as a chat input box for employees to managers.  <br>
 
 <h1>Getting Started</h1>
 
